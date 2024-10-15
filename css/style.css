@@ -1,0 +1,145 @@
+:root {
+    --color-dark: #141922;
+    --color-darkgrey: #282828;
+    --color-light: #ffffff;
+    --color-black: #000000;
+    --color-lightgrey: #c1c1c1;
+    --color-highlight: white;
+    --color-redcolor: #ca1717;
+}
+
+*
+.debug {
+    border:1px solid red;
+}
+
+
+body {
+    background-color: #282828;
+    color: var(--color-light);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #282828;
+    height: 100vh;
+}
+
+
+.d-flex {
+    display:flex
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.upper-content {
+    background-color: var(--color-dark);
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+.header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 230px;
+    width: calc(100% - 230px);
+    z-index: 3000; 
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+    
+}
+
+footer {
+    background-color: #282828;
+    flex: 0 0 100px;
+}
+
+#sidebar {
+    flex:0 0 230px;
+    background-color: var(--color-black);
+}
+
+img {
+    height: 50px;
+}
+
+
+main {
+    flex: 1 1 auto;
+    overflow-y:auto;
+    padding: 100px 20px 20px;
+}
+
+div.box {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+button {
+    border-radius: 5px;
+}
+
+
+
+.box.img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
