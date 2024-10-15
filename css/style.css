@@ -100,8 +100,6 @@ div.box {
     height: 100px;
 }
 
-
-
 button {
     border-radius: 5px;
 }
@@ -112,10 +110,36 @@ button {
 }
 
 h1 {
-    font-size: 14px;
+    font-size: 12px;
     word-spacing: 10px;
     text-align: center;
+    
 }
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    justify-content: center;
+    margin-right: 40%;
+    margin:27px;
+    padding:0%;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #f0f0f0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+   
+
+
 
 
 
