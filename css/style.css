@@ -12,10 +12,6 @@
 .debug {
     border:1px solid red;
 }
-
-
-
-
 body {
     background-color: #282828;
     color: var(--color-light);
@@ -121,25 +117,38 @@ h2 {
     font-size: 20px;
 }
 
-h3 {
-    justify-content: center;
-    margin-right: 40%;
-    margin:27px;
-    padding:0%;
-}
-
 h4{
     font-size: 20px;
 }
 
 h5 {
     font-size: 10px;
+    margin: 5px;
 }
 
 .image-container {
-padding: 20px;     
+margin: 5px; 
 }
-   
+
+.logo {
+    font-size: 23px;
+}
+
+.h7 {
+    text-align: center;
+}
+
+.image-container {
+    font-size: 10px;
+    margin: 5px;
+}
+
+.image-container {     
+    font-size: 10px;
+    margin: 2px;
+}
+
+
 @media screen and (max-width: 600px) {
     body {
         background-color: #f0f0f0;
