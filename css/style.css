@@ -126,6 +126,16 @@ h5 {
     margin: 5px;
 }
 
+
+.photo {
+    display: flex;     
+    justify-content: center;
+             
+    
+      
+
+}
+
 .image-container {
 margin: 5px; 
 }
@@ -139,15 +149,22 @@ margin: 5px;
 }
 
 .image-container {
-    font-size: 10px;
+    font-size: 10px;   rele
     margin: 5px;
 }
 
-.image-container {     
+.image-container {     dai
     font-size: 10px;
     margin: 2px;
 }
 
+.nome {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+
+    
 
 @media screen and (max-width: 600px) {
     body {
