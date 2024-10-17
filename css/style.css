@@ -155,12 +155,16 @@ margin: 5px;
 
 .image-container {     
     font-size: 10px;
-    margin: 2px;
+    margin-right: 5px;
 }
 
-.nome {
+.image-container{
     font-size: 10px;
-    margin-left: 10px;
+    margin-left: 65px;
+}
+
+.range {
+    text-align: center;
 }
 
 @media screen and (min-width: 1025px){
@@ -169,18 +173,13 @@ margin: 5px;
         font-size: 20px;
     }
 }
-    
-        
-   
-
+           
 @media screen and (min-width: 768px) { 
     .contenuto {
         background-color: lightcoral;
         font-size: 18px;
     }
 }
-
-
 
 @media screen and (max-width: 320px){
     .contenuto {
