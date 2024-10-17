@@ -160,8 +160,29 @@ margin: 5px;
 
 .image-container{
     font-size: 10px;
+    margin-left: 10px;
+}
+
+.image-container-footer {
+    font-size: 10px;
     margin-left: 65px;
 }
+
+.hearts {
+    font-size: 20px;
+    margin-left: 90px;
+    
+}
+
+.cartella {
+    font-size: 20px;
+    margin-left: 26px;
+}
+
+
+
+
+
 
 .range {
     text-align: center;
