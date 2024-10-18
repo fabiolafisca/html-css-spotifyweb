@@ -177,6 +177,18 @@ h5 {
     text-align: center;
 }
 
+.ul {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.ascolti {
+    font-size: 6ì9px;
+
+}
+
+
+
 @media screen and (min-width: 1025px){
     .contenuto {
         background-color: lightblue;
