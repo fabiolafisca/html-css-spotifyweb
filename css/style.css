@@ -28,12 +28,11 @@ body {
     height: 100vh;
 }
 
+
 .container {
     display:flex;
     align-items: center;
 }
-
-
 
 .favicon {
     background-color: white;
@@ -67,7 +66,6 @@ body {
     z-index: 3000; 
     background-color: rgba(0, 0, 0, 0.5);
     text-align: right;
-    
 }
 
 footer {
@@ -76,19 +74,19 @@ footer {
 }
 
 #sidebar {
-    flex:0 0 230px;
+    flex:0 0 160px;
     background-color: var(--color-black);
+    
 }
 
 img {
     height: 50px;
 }
 
-
 main {
     flex: 1 1 auto;
     overflow-y:auto;
-    padding: 100px 20px 20px;
+    padding: 80px 20px 20px;
     justify-content: center;
 }
 
@@ -126,19 +124,15 @@ h5 {
     margin: 5px;
 }
 
-
 .photo {
     display: flex;     
     justify-content: center;
-    gap: 80px;
-    
+    gap: 90px;
     height: 50px;
-      
-
 }
 
 .image-container {
-margin: 5px; 
+    margin: 5px; 
 }
 
 .logo {
@@ -154,14 +148,13 @@ margin: 5px;
     margin: 5px;
 }
 
-.image-container {     
+.image-container-radar {     
     font-size: 10px;
-    margin-right: 5px;
 }
 
-.image-container{
+.image-container-daily {
     font-size: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .image-container-footer {
@@ -179,13 +172,6 @@ margin: 5px;
     font-size: 20px;
     margin-left: 26px;
 }
-
-
-
-
-
-
-
 
 .range {
     text-align: center;
@@ -210,7 +196,13 @@ margin: 5px;
         background-color: lightgreen;
         font-size: 16px;
     }
-}     
+} 
+
+.home {
+    font-size: 0px;
+}
+
+
     
 
 
